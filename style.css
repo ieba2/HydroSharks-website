@@ -1,3 +1,9 @@
+:root {
+  --background-color : #0f4f75;
+  --blue-component : #4fc6d1;
+  --yellow-title : #dce120;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +11,7 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background: #0f4f75;
+  background: var(--background-color);
 }
 
 /* width */
@@ -16,7 +22,7 @@ body {
   background: #666;
 }
 ::-webkit-scrollbar-thumb {
-  background: #4fc6d1;
+  background: var(--blue-component);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -75,18 +81,18 @@ body {
 
 .hidden {
   opacity: 0;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  transform: translateX(-200px);
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  transform: translateX(-100px);
   transition: all 1s;
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   -ms-transition: all 1s;
   -o-transition: all 1s;
-  -webkit-transform: translateX(-200px);
-  -moz-transform: translateX(-200px);
-  -ms-transform: translateX(-200px);
-  -o-transform: translateX(-200px);
+  -webkit-transform: translateX(-100px);
+  -moz-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
+  -o-transform: translateX(-100px);
 }
 
 .show {
@@ -111,7 +117,7 @@ section {
   display: grid;
   place-items: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .sub-sections {
@@ -145,7 +151,7 @@ section {
 }
 
 .sub-section h1 {
-  color: #dce120;
+  color: var(--yellow-title);
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
