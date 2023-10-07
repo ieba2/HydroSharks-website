@@ -3,3 +3,8 @@
     --blue-component : #4fc6d1;
     --yellow-title : #dce120;
   }
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: var(--background-color);
+}
