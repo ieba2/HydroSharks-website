@@ -5,10 +5,10 @@
   }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: var(--background-color);
 }
 
-h1 {
+h1,h2,h3 {
     color: var(--yellow-title);
 }
