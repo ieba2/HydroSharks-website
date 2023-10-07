@@ -117,7 +117,7 @@ section {
   display: grid;
   place-items: center;
   align-items: center;
-  min-height: 80vh;
+  min-height: 70vh;
 }
 
 .sub-sections {
@@ -158,4 +158,14 @@ section {
 .sub-section p {
   font-size: 1.5rem;
   color: #fff;
+}
+
+iframe{
+  aspect-ratio: 16/9;
+  width: 70vh;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
