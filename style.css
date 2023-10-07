@@ -175,6 +175,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  min-height: 10vh;
+  min-height: 15vh;
   background-color: var(--dark-bg);
+  margin-top: 5rem;
+}
+
+footer li {
+  list-style: none;
 }
