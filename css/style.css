@@ -170,3 +170,9 @@ section {
 .elem:nth-child(2) {
   animation-delay: 2000ms;
 }
+
+@media screen and (max-width: 768px) {
+  iframe {
+    width: 100%;
+  }
+}
