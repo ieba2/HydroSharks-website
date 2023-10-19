@@ -49,3 +49,9 @@ footer {
 footer li, header li {
   list-style: none;
 }
+
+@media screen and (max-width: 768px) {
+  header li {
+    font-size: 0.75rem;
+  }
+}
