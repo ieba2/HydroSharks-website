@@ -175,4 +175,36 @@ section {
   iframe {
     width: 100%;
   }
+
+  .gmap {
+    aspect-ratio: 1/1;
+  }
+
+  .title-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .title-content p {
+    font-size: 1rem;
+  }
+
+  .sub-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .sub-section h2 {
+    font-size: 1rem;
+  }
+  
+  .sub-section p {
+    font-size: 0.75rem;
+  }
+
+  .section-component li {
+    font-size: 0.75rem;
+  }
+
+  .section-component {
+    margin-bottom: 0;
+  }
 }
