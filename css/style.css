@@ -11,7 +11,6 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
   background: var(--background-color);
 }
 
@@ -34,6 +33,18 @@ body {
   background: #3eb5c0;
 }
 
+.epilogue {
+  font-family: 'Epilogue', sans-serif;
+}
+
+.inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.mont {
+  font-family: 'Montserrat', sans-serif;
+}
+
 main {
   width: 100%;
   min-height: 100vh;
@@ -49,40 +60,36 @@ section {
 }
 
 section h1 {
-  font-family: 'Epilogue', sans-serif;
   font-size: 3rem;
   color: var(--yellow-title);
   text-align: center;
 }
 
 section h2 {
-  font-family: 'Epilogue', sans-serif;
   font-size: 2rem;
   margin-bottom: 1rem;
   color: var(--yellow-title);
 }
 
 section h3 {
-  font-family: 'Epilogue', sans-serif;
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: var(--blue-component);
 }
 
 section p {
-  font-family: 'Inter', sans-serif;
   font-weight: 300;
   font-size: 1.25rem;
   color: #fff;
 }
 
 section li {
-  font-family: 'Inter', sans-serif;
   font-weight: 300;
   font-size: 1.2rem;
   color: #fff;
   margin-left: 4rem;
   margin-top: 0.5rem;
+  list-style: square;
 }
 
 section .sub {
@@ -90,9 +97,6 @@ section .sub {
   margin-left: 4rem;
 }
 
-.sub li {
-  list-style: square;
-}
 .gframe {
   width: 100%;
   display: flex;
