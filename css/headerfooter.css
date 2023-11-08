@@ -40,10 +40,6 @@ a {
   color: #fff;
 }
 
-.current {
-  color: var(--yellow-title);
-}
-
 footer {
   display: flex;
   flex-direction: column;

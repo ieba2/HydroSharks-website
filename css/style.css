@@ -61,20 +61,17 @@ section {
 
 section h1 {
   font-size: 3rem;
-  color: var(--yellow-title);
   text-align: center;
 }
 
 section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: var(--yellow-title);
 }
 
 section h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: var(--blue-component);
 }
 
 section p {
@@ -123,7 +120,11 @@ section .sub {
 }
 
 .blue {
-  color: #3dd1f2;
+  color: var(--blue-component);
+}
+
+.yellow {
+  color: var(--yellow-title);
 }
 
 iframe {
