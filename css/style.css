@@ -62,6 +62,13 @@ section h2 {
   color: var(--yellow-title);
 }
 
+section h3 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--blue-component);
+}
+
 section p {
   font-family: 'Inter', sans-serif;
   font-weight: 300;
@@ -78,6 +85,14 @@ section li {
   margin-top: 0.5rem;
 }
 
+section .sub {
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+}
+
+.sub li {
+  list-style: square;
+}
 .gframe {
   width: 100%;
   display: flex;
