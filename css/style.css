@@ -147,6 +147,7 @@ article h1 {
 
 svg {
   margin-top: -4rem;
+  width: 100%;
 }
 
 iframe {
@@ -174,4 +175,12 @@ iframe {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #3eb5c0;
+}
+
+
+.shop svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill : white;
+  vertical-align: bottom;
 }
