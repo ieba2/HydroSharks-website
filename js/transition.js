@@ -1,33 +1,13 @@
-$(window).scroll(function () {
-    const scrollTop = $(window).scrollTop();
-    const documentHeight = $(document).height();
-    const windowHeight = $(window).height();
-  
-    const scrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
-    const $circle = $('.white');
-    
-    growAnimation($circle, scrollPercent);
-  });
-  
-  function growAnimation($element, animationPercentage) {
-    const animationDecimal = easeInOutQuad(animationPercentage / 100);
-  
-    const finishSizePercent = 300;
-    const finishPositionPercent = -100;
-    const startPositionPercent = 50;
-    const currentSizePercent = getProgressFromTo(0, finishSizePercent, animationDecimal);
-    const currentPositionPercent = getProgressFromTo(startPositionPercent, finishPositionPercent, animationDecimal);
-    
-    
-    $element.css({
-        width: `${currentSizePercent}%`,
-        height: `${currentSizePercent}%`,
-        top: `${currentPositionPercent}%`,
-        left: `${currentPositionPercent}%`
-    });
+const header = document.getElementById('header')
+
+// J'en fait une fonction pour pouvoir l'appeler au chargement de la page car
+// le scoll n'est pas forcément en haut au chargement.
+function onWindowScroll(event) {
+	if (window.pageYOffset < 46) {
+  	header.classList.remove('scrolled')
+  } else {
+  	header.classList.add('scrolled')
   }
-  
-  function getProgressFromTo(from, to, animationDecimal) {
-    return from + (to - from) * animationDecimal;
-  }
-  function easeInOutQuad(t) { return t<.5 ? 2*t*t : -1+(4-2*t)*t }
+}
+
+window.addEventListener('scroll', onWindowScroll)
