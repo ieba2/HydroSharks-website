@@ -22,6 +22,8 @@ header {
   background-repeat: no-repeat;
   margin-bottom: 4rem;
   background-attachment: fixed;
+  
+  transition: background-color 400ms linear;
 }
 
 header.scrolled{
