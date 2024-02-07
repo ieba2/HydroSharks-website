@@ -24,6 +24,10 @@ header {
   background-attachment: fixed;
 }
 
+header.scrolled{
+  background-color: #3282b8;
+}
+
 nav {
   z-index: 1;
   position: fixed;
