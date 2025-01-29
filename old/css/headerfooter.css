@@ -1,5 +1,6 @@
 :root {
   --background-color : #0f4f75;
+  --background-color-light : #3282b8;
   --blue-component : #4fc6d1;
   --yellow-title : #dce120;
   --dark-bg : #1c1c1c;
@@ -16,18 +17,23 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/title-bkg.jpg");
+  background-color: var(--background-color-light);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/equipe_hydro2024.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 4rem;
   background-attachment: fixed;
-  
-  transition: background-color 400ms linear;
+
+  /* https://developer.mozilla.org/fr/docs/Web/CSS/CSS_transitions/Using_CSS_transitions */
+  transition: 
+    opacity 0.1s easy-in-out,;
+    /* background-image 1s linear; */
+    /* background 0.5s lienar; */
 }
 
-header.scrolled{
-  background-color: #3282b8;
+.fondu{
+  background-color: var(--background-color-light);
 }
 
 nav {

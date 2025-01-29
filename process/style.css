@@ -1,0 +1,119 @@
+:root {
+    /* hydrosharks' colors */
+    --hydro1 : #3dd1f2;
+
+    /* Zephyr project colors */
+    --zephyru1 : #012F5B;
+
+    /* other colors */
+    --head-font-color : #ffffff;
+}
+
+@font-face {
+    font-family: 'Forque';
+    src: url('Forque.ttf') format('truetype');
+}
+
+header {
+    background-image: url("img/bato.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin-bottom: 4rem;
+}
+
+button{
+    font-weight: bold;
+    text-align: center;
+    width: 12rem;
+    height: 5rem;
+    border-radius: 5px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+hr{
+    margin-top: -0.1rem;
+}
+
+h2{
+    font-size: x-large;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0);
+}
+
+.navbar-item{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 15%;
+}
+
+.navbar-end{
+    margin-right: 2%;
+}
+
+.head-text{
+    color: var(--head-font-color);
+    margin-left: 4rem;
+    margin-top: 6rem;
+}
+
+.head-button{
+    margin-left: 2rem;
+}
+
+.titre{
+    font-family: 'Forque';
+    font-size: 8em;
+    color: var(--head-font-color);
+}
+
+.sous-titre{
+    font-size: 1.5em;
+}
+
+.blue{
+    color: var(--hydro1);
+}
+
+.contact{
+    color: var(--head-font-color);
+    background-color: var(--hydro1);
+    border-color: var(--hydro1);
+    font-size: 1.5em;
+}
+.voilier{
+    color: var(--head-font-color);
+    background-color: var(--zephyru1);
+    border-color: var(--zephyru1);
+    font-size: 1.5em;
+}
+
+.presentation{
+    background-color: #E7FBFE;
+}
+
+.who{
+    font-family: 'Forque';
+    font-size: 4em;
+    text-align: center;
+}
+
+.motiv-team{
+    margin-left:5rem;
+    /* margin-right:5rem; */
+    background: linear-gradient(to left, transparent, #E7FBFE),
+        url(img/equipe_hydro2024_coupe.jpg);
+}
+
+.text_team{
+    text-align: justify;
+    font-size: large;
+    width:50%;
+}
