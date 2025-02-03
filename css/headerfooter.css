@@ -50,6 +50,11 @@ nav {
   border-bottom: 2px solid #4fc6d1;
 }
 
+.logo_nav{
+  height: 40px;
+  width: 40px;
+}
+
 a {
   text-decoration: none;
   color: #fff;
