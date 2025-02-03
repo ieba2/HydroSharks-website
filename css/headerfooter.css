@@ -18,7 +18,7 @@ header {
   justify-content: center;
   align-items: center;
   background-color: var(--background-color-light);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/equipe_hydro2024.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/equipe_hydro2024.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,6 +47,7 @@ nav {
   align-items: center;
   padding: 0 50px;
   box-sizing: border-box;
+  border-bottom: 2px solid #4fc6d1;
 }
 
 a {
