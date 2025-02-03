@@ -158,6 +158,22 @@ svg {
   margin-top: -4rem;
 }
 
+.wiki {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wiki-div{
+  justify-content: center;
+}
+
+.link_svg{
+  height: 60px;
+  width: 60px;
+}
+
 iframe {
   aspect-ratio: 16/9;
   width: 100vh;
