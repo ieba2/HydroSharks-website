@@ -158,15 +158,15 @@ svg {
   margin-top: -4rem;
 }
 
+.wiki-projet h1{
+  color:#fff
+}
+
 .wiki {
   width: max-content;
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.wiki-div{
-  justify-content: center;
 }
 
 .link_svg{
