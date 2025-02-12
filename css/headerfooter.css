@@ -32,6 +32,25 @@ header {
     /* background 0.5s lienar; */
 }
 
+#header_proj{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color-light);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ZephyrMontain3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 4rem;
+  background-attachment: fixed;
+
+  /* https://developer.mozilla.org/fr/docs/Web/CSS/CSS_transitions/Using_CSS_transitions */
+  transition: 
+    opacity 0.1s easy-in-out,;
+}
+
 .fondu{
   background-color: var(--background-color-light);
 }

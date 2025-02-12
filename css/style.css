@@ -158,6 +158,11 @@ svg {
   margin-top: -4rem;
 }
 
+.zephyr_glace{
+  width: 60rem;
+  filter: brightness(50%);
+}
+
 .wiki-projet h1{
   color:#fff
 }
@@ -201,3 +206,4 @@ iframe {
 ::-webkit-scrollbar-thumb:hover {
   background: #3eb5c0;
 }
+
