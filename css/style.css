@@ -7,6 +7,8 @@
   --yellow-title : #dce120;
   --blue-title : #4fc6d1;
   --text-color : #fff;
+  --hydro-red : #e64301;
+  --hydro-wax : #f5e281;
 
   --dark-bg : #1c1c1c;
 
@@ -207,3 +209,114 @@ iframe {
   background: #3eb5c0;
 }
 
+
+
+/* From Uiverse.io by abrahamcalsin */ 
+/* https://uiverse.io/abrahamcalsin/sour-donkey-65 */
+button {
+  margin-top: 2%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: var(--background-color);
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+}
+
+button:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: #ffd401;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+button:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+button a {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px 25px;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover a {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+/* From Uiverse.io by Mike11jr */ 
+/* https://uiverse.io/Mike11jr/warm-zebra-80 */
+/* button {
+  padding: 1.1em 2em;
+  background: none;
+  border: 2px solid #fff;
+  font-size: 15px;
+  color: #131313;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  border-radius: 12px;
+  background-color: var(--hydro-wax);
+  font-weight: bolder;
+  box-shadow: 0 2px 0 2px #000;
+ }
+ 
+ button:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 120%;
+  background-color: var(--hydro-red);
+  top: 50%;
+  transform: skewX(30deg) translate(-280%, -50%);
+  transition: all 0.5s;
+ }
+ 
+ button:hover {
+  background-color: #4cc9f0;
+  color: #fff;
+  box-shadow: 0 2px 0 2px #0d3b66;
+ }
+ 
+ button:hover::before {
+  transform: skewX(30deg) translate(280%, -50%);
+  transition-delay: 0.1s;
+ }
+ 
+ button:active {
+  transform: scale(0.9);
+ } */
