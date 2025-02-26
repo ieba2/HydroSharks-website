@@ -108,7 +108,6 @@ section .show {
 .gframe {
   width: 100%;
   display: flex;
-  justify-content: center;
 }
 
 article {
@@ -191,6 +190,13 @@ iframe {
   -o-border-radius: 5px;
   margin-bottom: 5rem;
 }
+
+.message{
+  
+}
+
+
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -208,6 +214,9 @@ iframe {
 ::-webkit-scrollbar-thumb:hover {
   background: #3eb5c0;
 }
+
+
+
 
 
 
